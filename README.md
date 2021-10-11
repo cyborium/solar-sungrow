@@ -1,5 +1,5 @@
 # Sungrow Monitor
-A python 2.7 script to allow direct monitoring of sungrow inverters over LAN TCP modbus connections and upload the averaged observations for a specified interval to pvoutput.org
+A python 3.x script to allow direct monitoring of sungrow inverters over LAN TCP modbus connections and upload the averaged observations for a specified interval to pvoutput.org
 
 Based on a cut down version of [Meltaxa's solarIoT script](https://github.com/meltaxa/solariot) please check out their work if you are interested in a full on prememsis solution.
 
@@ -9,7 +9,7 @@ A docker container is available at [thomasfa18/solar-sungrow](https://hub.docker
 
 ## Getting Started - DIY
 - Clone the repository to a directory eg ./app
-- Install python 2.7 and pip
+- Install python 3.x and pip
   - `apt-get update && apt-get -y install curl python python-pip`
 - Install the required python modules
   - `pip install --trusted-host pypi.python.org -r requirements.txt`
